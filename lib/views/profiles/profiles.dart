@@ -5,14 +5,14 @@ import 'package:fl_clash/enum/enum.dart';
 import 'package:fl_clash/models/models.dart';
 import 'package:fl_clash/providers/providers.dart';
 import 'package:fl_clash/state.dart';
-import 'package:fl_clash/views/profiles/edit_profile.dart';
-import 'package:fl_clash/views/profiles/override_profile.dart';
 import 'package:fl_clash/views/profiles/scripts.dart';
 import 'package:fl_clash/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'add_profile.dart';
+import 'add.dart';
+import 'edit.dart';
+import 'overwrite.dart';
 
 class ProfilesView extends StatefulWidget {
   const ProfilesView({super.key});
