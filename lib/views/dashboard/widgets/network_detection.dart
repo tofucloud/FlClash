@@ -108,7 +108,7 @@ class _NetworkDetectionState extends ConsumerState<NetworkDetection> {
                       child: ipInfo != null
                           ? TooltipText(
                               text: Text(
-                                ipInfo.ip,
+                                ipInfo.countryCode,
                                 style: context.textTheme.bodyMedium?.toLight
                                     .adjustSize(1),
                                 maxLines: 1,
